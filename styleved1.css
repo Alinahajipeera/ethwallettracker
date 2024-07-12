@@ -1,0 +1,59 @@
+.home_screen_signup {
+    margin: 0 auto;
+    background-color: #171717;
+    text-align: center;
+    padding: 2rem;
+    display: none;
+  }
+  
+  .home_screen_img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .home_title {
+    color: rgb(0, 255, 200);
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .import_account .connectWallet,
+  .import_token .connectWallet,
+  .transfer_form .connectWallet,
+  .create_popUp .connectWallet,
+  .home_screen_login .connectWallet,
+  .home_screen_signup .connectWallet {
+    padding: 1rem 6rem;
+    margin-top: 1rem;
+  }
+  
+  .home h1,
+  .home_tabs p,
+  .assets_item span,
+  .lists p,
+  .accountData p,
+  .home_header p,
+  .home_screen_login p,
+  .home_screen_signup p {
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .home_screen_login {
+    margin: 0 auto;
+    background-color: #171717;
+    text-align: center;
+    padding: 2rem;
+    display: block;
+  }
+  
+  .create_popUp {
+    margin: 0 auto;
+    background-color: #171717;
+    text-align: center;
+    padding: 2rem;
+    display: none;
+    color: rgb(0, 255, 200);
+    text-align: center;
+  }
